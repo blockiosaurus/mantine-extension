@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import {Button} from "@mantine/core";
+import {useEffect} from 'react';
 import "./Popup.css";
 
 export default function() {
@@ -8,6 +9,9 @@ export default function() {
 
   return (
     <div>
+        <Button>
+            HELLO MANTINE
+        </Button>
       <img src="/icon-with-shadow.svg" />
       <h1>vite-plugin-web-extension</h1>
       <p>
